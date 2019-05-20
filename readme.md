@@ -18,7 +18,7 @@ Support translate
  ```
  npm i pdx-i18n
  ```
- + before use this ,add translate js file
+ + before use this ,add translate js file. 
  ```
 |-src
   |-i18n
@@ -30,7 +30,7 @@ Support translate
       |-module.js
     |-...
 ```
-Please make sure the file name of en/zh-ch/... are same
+Please make sure the sub file name of en/zh-ch/... are same
   +  import the module into main.js
   ```
   import pdxI18n from 'pdx-i18n';
