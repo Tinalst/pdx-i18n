@@ -94,10 +94,44 @@ index.html
 #### new pdxI18n（{currentLang: string,useFileName: string}）
 currentLang： the name of you create to put deffirent language file name .
               for example: en/zh-cn/zh-hant
+              
 useFileName: the name of module.js .
               for example: /en/module.js
               the useFileName is 'module'
-#### setInnerHtml()
-  translate html tag innertext value 
+```
+   const i18n =  new pdxI18n({
+      currentLang: currentlang,
+      useFileName: currentFile
+    });
+```
+#### setInnerHtml(lang: string)
+  translate html tag innerText value 
+  lang: currentLang
+```
+i18n.setInnerHtml('en');
+or
+i18n.setInnerHtml();
+```
+#### setPlaceholderLang(lang: string)
+  translate the placeholder of the element
+```
+  i18n.setPlaceholderLang('en');
+  or
+  i18n.setPlaceholderLang();
+```
+  
+#### setObjsLang(variableName: string, lang: string, callback)
+  translate variable
+  lang: needn't pass
+```
+const i18nObj = {};
+i18n.setObjsLang('i18nObj', currentlang, data => {
+    console.log(data);
+});
+or
+myI18n.setObjsLang('i18nObj', 'en', data => {
+   console.log(data);
+});
+```
 
-#### 
+the complete guide check the dome,please. 
