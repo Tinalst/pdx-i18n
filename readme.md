@@ -11,6 +11,7 @@ Please link [demo](https://github.com/Tinalst/learn-webpack4.x/tree/master/dynam
 Support translate
   1. html
   2. placeholder
+  3. variable
   
 ### how to use?
  + install pxd-i18n package
