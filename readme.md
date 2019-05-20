@@ -1,5 +1,6 @@
 ## pdx-i18n
-
+![](https://img.shields.io/github/package-json/v/Tinalst/pdx-i18n.svg)
+![](https://img.shields.io/bundlephobia/minzip/pdx-i18n.svg)
 ### what is this?
   If you need a translation tool in your H5 project, try this
 
