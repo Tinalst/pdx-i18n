@@ -10,8 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/Tinalst/pdx-i18n.git"
   },
+  "keywords": ["translate", "i18n" ],
   "author": "tinalim",
-  "license": "ISC",
+  "license": "MTI",
   "bugs": {
     "url": "https://github.com/Tinalst/pdx-i18n/issues"
   },
