@@ -50,7 +50,7 @@
     // }
     console.log(`./i18n/${this.currentLang}/${this.useFileName}.js`);
     // TinaI18n.getI18nFile(`./i18n/${this.currentLang}/${this.useFileName}.js`).then(ctx => {
-    TinaI18n.getI18nFile(`${window.location.href}i18n/${this.currentLang}/${this.useFileName}.js`).then(ctx => {
+    pdxI18n.getI18nFile(`${window.location.href}i18n/${this.currentLang}/${this.useFileName}.js`).then(ctx => {
       // TinaI18n.getI18nFile(`http://127.0.0.1:33333/i18n/${this.currentLang}/${this.useFileName}.js`).then(ctx => {
       console.log('ctx-0', ctx);
       for (let i = 0; i < ele.length; i++) {
