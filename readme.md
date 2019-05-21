@@ -93,9 +93,9 @@ index.html
 ```
 
 **Please make sure project i18n file structure fit for under url**
-``${window.location.href}i18n/${this.currentLang}/${this.useFileName}.js`
-  http://xxx.xxx.xx:port/i18n/en/xxxx.js
-`
+`${window.location.href}i18n/${this.currentLang}/${this.useFileName}.js`
+For example:
+` http://xxx.xxx.xx:port/i18n/en/xxxx.js`
 
 ### api
 #### new pdxI18n（{currentLang: string,useFileName: string}）
